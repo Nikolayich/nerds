@@ -45,9 +45,9 @@
         </li>
       </ul>
       <ul class="slider-list">
-        <li class="slider-item"><a href=""></a></li>
-        <li class="slider-item"><a href=""></a></li>
-        <li class="slider-item"><a href=""></a></li>
+        <li class="slider-item"><button class="slider-button slider-button-current" type="button">Слайд 1</button></li>
+        <li class="slider-item"><button class="slider-button" type="button">Слайд 2</button></li>
+        <li class="slider-item"><button class="slider-button" type="button"></button>Слайд 3</li>
       </ul>
     </section>
 
@@ -141,7 +141,21 @@
 
   <section class="modal modal-mail">
     <h2>Напишите нам</h2>
-    <span class="modal-close"></span>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="login-item">
+        <label for="login-name">Ваше имя:</label>
+        <input id="login-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p class="login-item">
+        <label for="login-mail">Ваш e-mail:</label>
+        <input id="login-mail" type="text" name="mail" placeholder="email@example.com">
+      </p>
+      <p class="login-item">
+        <label for="">Текст письма:</label>
+        <textarea name="text" id="login-text" cols="30" rows="10">В свободной форме</textarea>
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
   </section>
 </body>
 
