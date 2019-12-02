@@ -44,3 +44,37 @@ ul {
   background-color: #d7373b;
   box-shadow: inset  0 3px rgba(0,0,0, 0.1);
 }
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.main-header-logo:hover,
+.main-header-logo:focus {
+  opacity: 0.8;
+}
+
+.main-header-logo:active {
+  opacity: 0.3;
+}
+
+.site-navigation a {
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation-current {
+  border-bottom: 2px solid #fb565a;
+}
