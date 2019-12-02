@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Дизайн-студия Nёrds</title>
+  <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
@@ -11,7 +12,7 @@
   <header class="main-header">
     <nav class="main navigation">
       <a class="main-header-logo"><img src="img/nerds-logo.svg" width="160" height="65"
-          alt="Логотип дизайн-студии Nёrds"></a>
+          alt="Логотип дизайн-студии Nerds"></a>
       <ul class="site-navigation">
         <li><a href="about.html">Студия</a></li>
         <li><a href="clients.html">Клиенты</a></li>
@@ -23,7 +24,7 @@
   </header>
 
   <main>
-    <h1 class="visually-hidden">Дизайн-студия Nёrds</h1>
+    <h1 class="visually-hidden">Дизайн-студия Nerds</h1>
 
     <section class="slider">
       <h2 class="visually-hidden">Преимущества</h2>
@@ -74,7 +75,7 @@
 
     <section class="about-us">
       <h2 class="visually-hidden">О нас</h2>
-      <b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
+      <p><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
         рук, как роботы.</p>
       <div class="development">
@@ -87,7 +88,7 @@
       </div>>
       <table class="facts">
         <tr>
-          <th>С 2004 года любим точность во всем:</th>
+          <th colspan="2">С 2004 года любим точность во всем:</th>
         </tr>
         <tr>
           <td>146 <sup>%</sup></td>
@@ -107,10 +108,10 @@
     <section class="clients">
       <h2 class="visually-hidden">Наши клиенты</h2>
       <ul class="clients-list">
-        <li class="client-item"></li>
-        <li class="client-item"></li>
-        <li class="client-item"></li>
-        <li class="client-item"></li>
+        <li class="client-item"><img src="img/logo-1.png" alt="Логотип HTML Академии" width="199" height="68"></li>
+        <li class="client-item"><img src="img/logo-2.png" alt="Логотип барбершопа Бородинский" width="209" height="90"></li>
+        <li class="client-item"><img src="img/logo-3.png" alt="Логотип сайта Пинк" width="185" height="52"></li>
+        <li class="client-item"><img src="img/logo-4.png" alt="Логотип сайта Мишка" width="173" height="84"></li>
       </ul>
     </section>
   </main>
@@ -150,7 +151,7 @@
         <input id="login-mail" type="text" name="mail" placeholder="email@example.com">
       </p>
       <p class="login-item">
-        <label for="">Текст письма:</label>
+        <label for="login-text">Текст письма:</label>
         <textarea name="text" id="login-text" cols="30" rows="10">В свободной форме</textarea>
       </p>
       <button class="button" type="submit">Отправить</button>
