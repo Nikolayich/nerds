@@ -102,6 +102,69 @@ ul {
   background-color: #00ca74;
 }
 
+.services-item:nth-child(2) a:hover,
+.services-item:nth-child(2) a:focus {
+  background-color: #00bc6c;
+}
+
+.services-item:nth-child(2) a:active {
+  background-color: #00aa62;
+}
+
 .services-item:last-child a {
   background-color: #efc84a;
+}
+
+.services-item:last-child a:hover,
+.services-item:last-child a:focus {
+  background-color: #eab534;
+}
+
+.services-item:last-child a:active {
+  background-color: #e5a722;
+}
+
+.about-us b {
+  color: #000000;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.development h3 {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.facts th {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.facts td:first-child {
+  color: #000000;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.facts td:last-child {
+  line-height: 18px;
+}
+
+.client-item {
+  opacity: 0.2;
+}
+
+.client-item:hover,
+.client-item:focus {
+  opacity: 1;
+}
+
+.client-item:active {
+  opacity: 0.1;
 }
