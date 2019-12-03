@@ -79,6 +79,10 @@ ul {
   border-bottom: 2px solid #fb565a;
 }
 
+.slider {
+  background-color: #eeeeee;
+}
+
 .feature-item h3 {
   color: #000000;
   font-size: 55px;
