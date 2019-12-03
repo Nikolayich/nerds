@@ -168,3 +168,67 @@ ul {
 .client-item:active {
   opacity: 0.1;
 }
+
+.address b {
+  color: #000000;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.address p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.social-footer p {
+  color: #444444;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.social-footer b {
+  color: #000000;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.modal-mail h2 {
+  color: #000000;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.login-item label {
+  color: #000000;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.login-item input,
+.login-item textarea {
+  color: rgba(68, 68, 68, 0.5);
+  font: inherit;
+  line-height: 18px;
+
+  border: 2px solid #d7dcde;
+  border-radius: 3px;
+} 
+
+.login-item input:hover,
+.login-item textarea:hover {
+  border-color: #b4b9bb;
+}
+
+.login-item input:focus,
+.login-item textarea:focus {
+  border-color: #000000;
+}
+
+.login-item input:invalid,
+.login-item textarea:invalid {
+  border-color: #e74246;
+}
