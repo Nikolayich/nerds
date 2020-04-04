@@ -747,11 +747,15 @@ tbody tr:first-child {
 .mail-item textarea {
   font: inherit;
   line-height: 18px;
-  color: rgba(68, 68, 68, 0.5);
 
   border: 2px solid #d7dcde;
   border-radius: 3px;
 } 
+
+.mail-item input::placeholder,
+.mail-item textarea::placeholder {
+  color: rgba(68, 68, 68, 0.5);
+}
 
 .mail-item input:hover,
 .mail-item textarea:hover {
@@ -761,6 +765,8 @@ tbody tr:first-child {
 .mail-item input:focus,
 .mail-item textarea:focus {
   border-color: #000000;
+
+  outline: none;
 }
 
 .mail-item input:invalid,
