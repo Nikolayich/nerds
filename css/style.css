@@ -413,7 +413,7 @@ body {
 }
 
 .facts th {
-  padding-bottom: 39px;
+  padding-bottom: 30px;
   padding-left: 17px;
   font-weight: 700;
   text-align: left;
@@ -422,7 +422,7 @@ body {
 }
 
 .facts sup {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 tr td {
@@ -1255,7 +1255,7 @@ input[type="checkbox"]:checked+.checkbox-indicator {
 .map img {
   position: absolute;
   left: 50%;
-  margin-left: -720px;
+  margin-left: -600px;
 }
 
 .main-footer .container {
