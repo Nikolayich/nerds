@@ -16,7 +16,6 @@ var slider1 = document.querySelector('.feature-item:first-child');
 var slider2 = document.querySelector('.feature-item:nth-child(2)');
 var slider3 = document.querySelector('.feature-item:last-child');
 
-
 var isStorageSupport = true;
 var nameStorage = '';
 var mailStorage = '';
